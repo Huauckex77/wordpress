@@ -1,0 +1,137 @@
+# <!=Copyright (C) 2022 Good Looking Themes
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Pretty Good Blog 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pretty-good-blog\n"
+"POT-Creation-Date: 2022-11-27 12:59:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/custom-functions.php:54
+msgid "BlossomThemes Email Newsletter"
+msgstr ""
+
+#: includes/custom-functions.php:59
+msgid "Customizer Search"
+msgstr ""
+
+#: includes/custom-functions.php:64
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/customizer.php:12
+msgid "Editors Pick Section"
+msgstr ""
+
+#: includes/customizer.php:33
+msgid "Hide Editor Picks Section"
+msgstr ""
+
+#: includes/customizer.php:34
+msgid "Enable to hide editor picks section."
+msgstr ""
+
+#: includes/customizer.php:42
+msgid "Editors Pick"
+msgstr ""
+
+#: includes/customizer.php:52
+msgid "Section Title"
+msgstr ""
+
+#: includes/customizer.php:73 includes/customizer.php:91
+#: includes/customizer.php:109 includes/customizer.php:127
+msgid "Select Editors post"
+msgstr ""
+
+#: includes/extra-functions.php:97
+msgid "Information Links"
+msgstr ""
+
+#: includes/extra-functions.php:111
+msgid "<li>View documentation: %1$sClick here.%2$s</li>"
+msgstr ""
+
+#: includes/extra-functions.php:112
+msgid "<li>Theme info: %1$sClick here.%2$s</li>"
+msgstr ""
+
+#: includes/extra-functions.php:113
+msgid "<li>Support ticket: %1$sClick here.%2$s</li>"
+msgstr ""
+
+#: includes/extra-functions.php:114
+msgid "<li>More WordPress Themes: %1$sClick here.%2$s</li>"
+msgstr ""
+
+#: includes/extra-functions.php:120
+msgid "Important Links"
+msgstr ""
+
+#: section/section-banner.php:9
+msgid "Donec Cras Ut Eget Justo Nec Semper Sapien Viverra Ante"
+msgstr ""
+
+#: section/section-banner.php:10
+msgid "Read More"
+msgstr ""
+
+#: section/section-banner.php:12
+msgid "About Us"
+msgstr ""
+
+#: section/section-editor-pick.php:8
+msgid "Editor Posts"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Pretty Good Blog"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://glthemes.com/wordpress-theme/pretty-good-blog"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Pretty Good Blog is particularly designed for blog websites with "
+"performance and SEO in mind. The theme is fast, modern, stylish and highly "
+"customizable which make it perfect for the bloggers. As it is quite "
+"lightweight and SEO friendly, search engine can easily find and index your "
+"website. Considering mobile responsiveness, we have crafted this theme to "
+"look beautiful in all the devices. If you are a blogger looking for the "
+"best WordPress theme for your site, then this theme is perfect for you as "
+"it is easy to use, fast, user friendly and highly customizable. Support for "
+"Gutenberg, sidebar layouts, customizable widgets, excellent support and "
+"frequent updates are the additional theme features. Don't want to take our "
+"word for it? Try out the demo here: "
+"https://demo.glthemes.com/pretty-good-blog/. If you have further issues "
+"regarding the theme, please check out the theme documentation: "
+"https://glthemes.com/documentation/pretty-good-blog or leave an enquiry at "
+"our Support page: https://glthemes.com/support/."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Good Looking Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://glthemes.com/"
+msgstr ""

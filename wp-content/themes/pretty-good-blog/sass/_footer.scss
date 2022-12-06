@@ -1,0 +1,179 @@
+.home {
+  .site-footer {
+    .footer-top {
+      margin-top: 0;
+    }
+  }
+}
+
+.site-footer {
+  background-color: var(--glt-primary-color);
+  .footer-top {
+    .grid {
+      .col {
+        @include media(md) {
+          margin-bottom: 24px;
+        }
+       
+        section {
+          p {
+            color: #fff;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    background: #22205a;
+    .container {
+      border-top: none;
+      padding: 12px 12px;
+      color: #fff;
+      @include media(md) {
+        padding: 12px 12px 24px 12px;
+      }
+      .site-info {
+        a {
+          color: var(--glt-secondary-color);
+          &:hover {
+            color: var(--glt-secondary-color);
+          }
+        }
+      }
+    }
+  }
+}
+
+.site-footer p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+// Heading
+.site-footer .footer-top .grid .col .widget-title,
+.site-footer .footer-top .grid .col h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 135%;
+  margin-bottom: 32px;
+  &::after {
+    background-color: #fff;
+    height: 2px;
+    width: 24px;
+    bottom: -8px;
+  }
+}
+.site-footer .footer-top .grid .col h1,
+.site-footer .footer-top .grid .col h3,
+.site-footer .footer-top .grid .col h4,
+.site-footer .footer-top .grid .col h5,
+.site-footer .footer-top .grid .col h6 {
+  color: #fff;
+  position: relative;
+  margin-bottom: 32px;
+  &::after {
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    height: 2px;
+    width: 24px;
+    bottom: -8px;
+    left: 0;
+  }
+}
+
+.site-footer .widget {
+  margin: 0 0 0px;
+}
+
+// Link
+.site-footer .widget.widget_meta ul li a,
+.site-footer .widget.widget_nav_menu ul li a,
+.site-footer .widget.widget_pages ul li a {
+  color: #fff;
+  margin-bottom: 16px;
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+// CAtegories
+.widget.widget_categories .wp-block-categories-list li a,
+.widget.widget_block.widget_block .wp-block-categories-list li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding-left: 12px;
+}
+
+.widget.widget_categories .wp-block-categories-list,
+.widget.widget_block.widget_block .wp-block-categories-list {
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+.widget.widget_categories .wp-block-categories-list li:not(:last-child),
+.widget.widget_block.widget_block
+  .wp-block-categories-list
+  li:not(:last-child) {
+  border-bottom: none;
+}
+.site-footer .widget.widget_categories .wp-block-categories-list li,
+.site-footer .widget.widget_block.widget_block .wp-block-categories-list li {
+  padding: 4px 0px;
+}
+
+.widget.widget_categories .wp-block-categories-list li a:hover,
+.widget.widget_block.widget_block .wp-block-categories-list li a:hover,
+.site-footer .widget.widget_meta ul li a:hover,
+.site-footer .widget.widget_nav_menu ul li a:hover,
+.site-footer .widget.widget_pages ul li a:hover {
+  color: var(--glt-secondary-color);
+}
+
+
+.site-footer .widget.widget_categories .wp-block-categories-list li::before {
+ background-image: none;
+}
+.site-footer .widget.widget_categories .wp-block-categories-list li a,.site-footer .widget.widget_categories .wp-block-categories-list li a{
+  padding-left: 0;
+}
+
+.site-footer .footer-top .grid .col section .wp-block-tag-cloud .tag-cloud-link {
+  color: #fff;
+  margin-bottom: 16px;
+  &:hover{
+    color: var(--glt-secondary-color);
+  }
+}
+
+.site-footer .footer-bottom .container .footer-bottom-menu ul li:not(:last-child) {
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #fff;
+}
+
+.site-footer .footer-bottom .container .footer-bottom-menu ul li a {
+  color: #fff;
+  &:hover{
+    color: var(--glt-secondary-color);
+  }
+}
+
+.site-footer figure {
+  margin-top: 0;
+}
+
+.footer-bottom .site-info, .footer-bottom-menu{
+  font-size: 14px;
+  font-weight: 500;
+}

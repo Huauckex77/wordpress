@@ -1,0 +1,66 @@
+.site-main {
+  .blog-post-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    @include media(sm) {
+      display: block;
+    }
+    .post {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      @include media(sm) {
+        display: block;
+        margin-bottom: 20px;
+      }
+
+      .image {
+        .post-thumbnail {
+          img {
+            width: 100%;
+            object-fit: cover;
+            height: 324px;
+            @include media(md) {
+              height: 270px;
+            }
+          }
+        }
+      }
+
+      .entry-header {
+        position: relative;
+        bottom: 0px;
+        left: -50px;
+        margin-left: 30px;
+        background-color: #fff;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: fit-content;
+        margin: auto 0;
+        @include media(sm) {
+          position: initial;
+          left: 0;
+        }
+        .entry-details {
+          margin-top: 0;
+          .entry-title {
+            display: block;
+            background: none;
+            border: none;
+            margin-bottom: 24px;
+          }
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.default .posts-navigation .nav-links .nav-previous {
+  float: left;
+}

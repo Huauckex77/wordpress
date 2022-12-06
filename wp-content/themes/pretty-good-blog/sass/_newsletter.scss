@@ -1,0 +1,97 @@
+.newsletter-section {
+  margin-bottom: 0 !important;
+  
+  .container {
+    max-width: 100%;
+    padding: 0 0px;
+    margin: auto;
+    width: 100%;
+    .dt-newsletter-wrapper {
+      .right-wrapper {
+        .blossomthemes-email-newsletter-wrapper {
+          justify-content: center;
+          align-items: flex-start;
+          padding: 48px 180px;
+          @include media(lg) {
+            padding: 48px 140px;
+          }
+          @include media(sm) {
+            padding: 48px 80px;
+          }
+        
+          .text-holder {
+            h3 {
+              font-weight: 500;
+              font-size: 24px;
+              line-height: 135%;
+            }
+          }
+
+          form {
+            justify-content: flex-end;
+            align-items: end;
+            input[type="text"] {
+              border-radius: 0;
+              @include media(lg) {
+                width: inherit;
+               height: 60px;
+              }
+              @include media(md) {
+                max-width: 100%;
+                width: 100%;
+              }
+            }
+            input[type="submit"] {
+              border-radius: 0;
+              @include media(lg) {
+                width: auto;
+              }
+              @include media(md) {
+                max-width: 100%;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// @include media(lg) {
+//   padding: 48px 60px;
+// }
+
+section.newsletter-section
+  .dt-newsletter-wrapper
+  .blossomthemes-email-newsletter-wrapper
+  .text-holder {
+  @include media(lg) {
+    max-width: 37%;
+    margin-bottom: 0;
+  }
+  @include media(md) {
+    max-width: 100%;
+  }
+}
+section.newsletter-section
+  .dt-newsletter-wrapper
+  .blossomthemes-email-newsletter-wrapper
+  > form {
+  @include media(lg) {
+    max-width: 60%;
+    width: 60%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  @include media(md) {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 470px){
+  .newsletter-section .container .dt-newsletter-wrapper .right-wrapper .blossomthemes-email-newsletter-wrapper {
+    padding: 48px 18px;
+}
+}
